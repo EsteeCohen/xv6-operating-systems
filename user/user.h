@@ -22,6 +22,8 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 int uptime(void);
+int memsize(void); //TASK 2: memsize system call
+int co_yield(int pid, int value); //TASK 3: co_yield system call
 
 // ulib.c
 int stat(const char*, struct stat*);
